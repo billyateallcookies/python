@@ -17,7 +17,7 @@ class TestTimSort(unittest.TestCase):
         for arr in test_arrs:
             print(f"Array: {arr}")
             self.assertEqual(timsort.timsort(arr), sorted(arr))
-            print(f"Sorted Array: {timsort.timsort(arr)}")
+            print(f"Sorted Array: {arr}")
 
 if __name__ == "__main__":
     unittest.main()
