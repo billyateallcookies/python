@@ -12,7 +12,7 @@ test_arrs = [
 ]
 
 
-class TestTimSort(unittest.TestCase):
+class TestSelectionSort(unittest.TestCase):
     def test_one(self):
         for arr in test_arrs:
             print(f"Array: {arr}")
